@@ -1,0 +1,394 @@
+{
+  "Apple___Apple_scab": {
+    "crop": "Apple",
+    "disease": "Apple scab",
+    "status": "SOURCED",
+    "organic_cultural": [],
+    "chemical": [
+      "Silver tip-Green tip stage: Mancozeb (400 g) or Captan (300 g) per 100 litres water",
+      "Pink bud stage: Contaf (30 ml) or Baycor (50 g) per 100 litres water",
+      "Petal fall stage: Bavistin (50 g) or Topsin M (50 g) per 100 litres water",
+      "Pea stage: Mancozeb (300 g) or Captan (300 g) per 100 litres water",
+      "Fruit development stage: Bavistin + Mancozeb (25 + 250 g) per 100 litres water",
+      "15-20 days before harvest: Mancozeb (300 g) per 100 litres water",
+      "Before leaf fall: Urea (5 kg) per 100 litres water"
+    ],
+    "source": "https://nhb.gov.in/pdf/fruits/apple/app002.pdf",
+    "source_note": "National Horticulture Board (Government of India), Apple - Diseases, citing ICAR: 50 years of crop science research in India, 1996. The PDF lists stages and fungicides as two separate columns; they are matched here in order. Open the PDF and confirm the stage-to-fungicide matching before submitting."
+  },
+  "Apple___Black_rot": {
+    "crop": "Apple",
+    "disease": "Black rot",
+    "status": "NOT_YET_SOURCED",
+    "organic_cultural": [],
+    "chemical": [],
+    "source": "",
+    "source_note": "No source found yet."
+  },
+  "Apple___Cedar_apple_rust": {
+    "crop": "Apple",
+    "disease": "Cedar apple rust",
+    "status": "NOT_YET_SOURCED",
+    "organic_cultural": [],
+    "chemical": [],
+    "source": "",
+    "source_note": "No source found. This rust needs juniper/cedar hosts and is mainly reported in North America; the Indian sources checked do not cover it."
+  },
+  "Apple___healthy": {
+    "crop": "Apple",
+    "disease": "Healthy",
+    "status": "HEALTHY - no treatment entry needed"
+  },
+  "Blueberry___healthy": {
+    "crop": "Blueberry",
+    "disease": "Healthy",
+    "status": "HEALTHY - no treatment entry needed"
+  },
+  "Cherry_(including_sour)___Powdery_mildew": {
+    "crop": "Cherry (including sour)",
+    "disease": "Powdery mildew",
+    "status": "NOT_YET_SOURCED",
+    "organic_cultural": [],
+    "chemical": [],
+    "source": "",
+    "source_note": "No source found yet."
+  },
+  "Cherry_(including_sour)___healthy": {
+    "crop": "Cherry (including sour)",
+    "disease": "Healthy",
+    "status": "HEALTHY - no treatment entry needed"
+  },
+  "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot": {
+    "crop": "Corn (maize)",
+    "disease": "Cercospora leaf spot Gray leaf spot",
+    "status": "PARTIAL - cultural only, chemical not sourced",
+    "organic_cultural": [
+      "Rotate away from corn for one or two years to reduce inoculum",
+      "Select gray leaf spot resistant hybrids"
+    ],
+    "chemical": [],
+    "source": "https://dx.doi.org/10.1094/APSnetFeature-1998-0598",
+    "source_note": "APSnet Feature (American Phytopathological Society), not an Indian source. No TNAU/ICAR page with doses found. Chemical recommendations still needed."
+  },
+  "Corn_(maize)___Common_rust_": {
+    "crop": "Corn (maize)",
+    "disease": "Common rust",
+    "status": "SOURCED",
+    "organic_cultural": [
+      "Remove the alternate hosts (Oxalis species)",
+      "Collect the remains of the crop and destroy by burning or burying"
+    ],
+    "chemical": [
+      "Foliar spray at 35 and 50 days after sowing (DAS) of ONE of: Kresoxim-methyl 44.3% SC @ 1 ml/litre, or Tebuconazole @ 1 ml/litre, or Chlorothalonil (dose not clearly separated on the page), or Mancozeb @ 2 ml/litre"
+    ],
+    "source": "https://agritech.tnau.ac.in/crop_protection/maize_disease_new/maize_4.html",
+    "source_note": "TNAU Agritech Portal, Maize common rust (Puccinia sorghi). The page's spray line runs the chemical names together ('...1ml/l orchlorothalonil or mancozeb 2 ml/l'), so the Chlorothalonil dose is unclear. Check the page before using that option."
+  },
+  "Corn_(maize)___Northern_Leaf_Blight": {
+    "crop": "Corn (maize)",
+    "disease": "Northern Leaf Blight",
+    "status": "SOURCED",
+    "organic_cultural": [
+      "Burn or bury infected maize stubble"
+    ],
+    "chemical": [
+      "Spray Mancozeb or Zineb @ 2-4 g/litre, or Propiconazole 25% EC @ 1 ml/litre, at 35 and 50 days after sowing (DAS)"
+    ],
+    "source": "https://agritech.tnau.ac.in/crop_protection/maize_disease_new/maize_2.html",
+    "source_note": "TNAU Agritech Portal, Maize leaf blight (Exserohilum turcicum). A second TNAU page (maize_disease/maize_4.html) says Mancozeb or Zineb @ 2-4 g/litre at 10-day intervals after first appearance."
+  },
+  "Corn_(maize)___healthy": {
+    "crop": "Corn (maize)",
+    "disease": "Healthy",
+    "status": "HEALTHY - no treatment entry needed"
+  },
+  "Grape___Black_rot": {
+    "crop": "Grape",
+    "disease": "Black rot",
+    "status": "SOURCED",
+    "organic_cultural": [
+      "Collect and destroy mummified berries left on the vines",
+      "Ensure free circulation of air through the vines"
+    ],
+    "chemical": [
+      "Spray Bordeaux mixture (4:4:100) once or twice on young bunches to prevent infection; copper fungicides are preferred on bunches because they leave no visible deposit on fruit"
+    ],
+    "source": "https://www.nhb.gov.in/pdf/fruits/grape/gra002.pdf",
+    "source_note": "National Horticulture Board (Government of India), Grapes - Diseases, Black Rot (Guignardia bidwelli)."
+  },
+  "Grape___Esca_(Black_Measles)": {
+    "crop": "Grape",
+    "disease": "Esca (Black Measles)",
+    "status": "NOT_YET_SOURCED",
+    "organic_cultural": [],
+    "chemical": [],
+    "source": "",
+    "source_note": "No Indian source found. The NHB grape page covers 'Dead arm' (Phomopsis), which is a different disease; do not use it for Esca."
+  },
+  "Grape___Leaf_blight_(Isariopsis_Leaf_Spot)": {
+    "crop": "Grape",
+    "disease": "Leaf blight (Isariopsis Leaf Spot)",
+    "status": "NOT_YET_SOURCED",
+    "organic_cultural": [],
+    "chemical": [],
+    "source": "",
+    "source_note": "No source found. The NHB grape page covers Alternaria leaf blight, which is a different pathogen; do not use it for Isariopsis leaf spot."
+  },
+  "Grape___healthy": {
+    "crop": "Grape",
+    "disease": "Healthy",
+    "status": "HEALTHY - no treatment entry needed"
+  },
+  "Orange___Haunglongbing_(Citrus_greening)": {
+    "crop": "Orange",
+    "disease": "Haunglongbing (Citrus greening)",
+    "status": "NOT_YET_SOURCED",
+    "organic_cultural": [],
+    "chemical": [],
+    "source": "",
+    "source_note": "TNAU page has no management text. ICAR sources describe the disease as spread by the citrus psylla and infected budwood, with no cure. Treatment advice still needed."
+  },
+  "Peach___Bacterial_spot": {
+    "crop": "Peach",
+    "disease": "Bacterial spot",
+    "status": "NOT_YET_SOURCED",
+    "organic_cultural": [],
+    "chemical": [],
+    "source": "",
+    "source_note": "No source found yet."
+  },
+  "Peach___healthy": {
+    "crop": "Peach",
+    "disease": "Healthy",
+    "status": "HEALTHY - no treatment entry needed"
+  },
+  "Pepper,_bell___Bacterial_spot": {
+    "crop": "Pepper, bell",
+    "disease": "Bacterial spot",
+    "status": "SOURCED - TNAU chilli page (bell pepper and chilli are both Capsicum annuum)",
+    "organic_cultural": [
+      "Field sanitation is important",
+      "Obtain seed from disease-free plants"
+    ],
+    "chemical": [
+      "Spray Mancozeb @ 2 g/litre or Copper oxychloride @ 2.5 g/litre",
+      "Seedlings may be sprayed with Bordeaux mixture 1% or Copper oxychloride 0.25%",
+      "Do not spray streptomycin after fruits begin to form"
+    ],
+    "source": "https://agritech.tnau.ac.in/crop_protection/chilli_diseases_4.html",
+    "source_note": "TNAU Agritech Portal, Chilli bacterial leaf spot (Xanthomonas campestris pv. vesicatoria), updated Jun 2023. The page also lists a mercuric chloride seed treatment; it is left out here because mercury compounds are highly toxic."
+  },
+  "Pepper,_bell___healthy": {
+    "crop": "Pepper, bell",
+    "disease": "Healthy",
+    "status": "HEALTHY - no treatment entry needed"
+  },
+  "Potato___Early_blight": {
+    "crop": "Potato",
+    "disease": "Early blight",
+    "status": "SOURCED",
+    "organic_cultural": [
+      "Use disease-free seed tubers for planting",
+      "Remove and destroy infected plant debris (soil spores are the primary infection source)",
+      "Variety Kufri Sindhuri has fair resistance"
+    ],
+    "chemical": [
+      "Very early spray with Zineb or Captan at 0.2%, repeated every 15-20 days"
+    ],
+    "source": "https://agritech.tnau.ac.in/crop_protection/crop_prot_crop%20diseases_veg_potato_2.html",
+    "source_note": "TNAU Agritech Portal, potato disease page."
+  },
+  "Potato___Late_blight": {
+    "crop": "Potato",
+    "disease": "Late blight",
+    "status": "SOURCED - ICAR research paper (field trial result, not an official label dose)",
+    "organic_cultural": [
+      "Resistant varieties in trials: Kufri Girdhari, then Kufri Himalini",
+      "Planting date affects disease: last week of April for the susceptible variety, mid-May to first week of June for resistant varieties (Nilgiris trial)"
+    ],
+    "chemical": [
+      "Best schedule 1: Mancozeb @ 0.2% as prophylactic first spray, then Azoxystrobin @ 0.1% as second spray",
+      "Best schedule 2: Mancozeb @ 0.2% as prophylactic first spray, then Dimethomorph + Mancozeb @ 0.3% as second spray",
+      "Continue the same sequence depending on weather, up to 75 days, at 7-10 day intervals"
+    ],
+    "source": "https://epubs.icar.org.in/index.php/PotatoJ/article/view/86979",
+    "source_note": "Potato Journal (ICAR), 'Management of potato late blight (Phytophthora infestans) in the Nilgiris', Vol 46(1), 2019. Checked against the abstract on the ICAR page. Nilgiris trial conditions; follow label and local agriculture officer's advice."
+  },
+  "Potato___healthy": {
+    "crop": "Potato",
+    "disease": "Healthy",
+    "status": "HEALTHY - no treatment entry needed"
+  },
+  "Raspberry___healthy": {
+    "crop": "Raspberry",
+    "disease": "Healthy",
+    "status": "HEALTHY - no treatment entry needed"
+  },
+  "Soybean___healthy": {
+    "crop": "Soybean",
+    "disease": "Healthy",
+    "status": "HEALTHY - no treatment entry needed"
+  },
+  "Squash___Powdery_mildew": {
+    "crop": "Squash",
+    "disease": "Powdery mildew",
+    "status": "PARTIAL - TNAU page is for muskmelon/watermelon (same disease group), no squash page found",
+    "organic_cultural": [],
+    "chemical": [
+      "Wettable sulphur @ 0.2%"
+    ],
+    "source": "https://agritech.tnau.ac.in/crop_protection/water_melon_6.html",
+    "source_note": "TNAU Agritech Portal, Muskmelon and Watermelon powdery mildew (Erysiphe cichoracearum). Squash is in the same cucurbit family; confirm with a squash-specific source if available."
+  },
+  "Strawberry___Leaf_scorch": {
+    "crop": "Strawberry",
+    "disease": "Leaf scorch",
+    "status": "NOT_YET_SOURCED",
+    "organic_cultural": [],
+    "chemical": [],
+    "source": "",
+    "source_note": "No source found yet."
+  },
+  "Strawberry___healthy": {
+    "crop": "Strawberry",
+    "disease": "Healthy",
+    "status": "HEALTHY - no treatment entry needed"
+  },
+  "Tomato___Bacterial_spot": {
+    "crop": "Tomato",
+    "disease": "Bacterial spot",
+    "status": "SOURCED",
+    "organic_cultural": [
+      "Use disease-free seed"
+    ],
+    "chemical": [
+      "Streptocycline 40-100 ppm (20 g/ac)"
+    ],
+    "source": "https://agritech.tnau.ac.in/crop_protection/tomato_diseases_11.html",
+    "source_note": "TNAU Agritech Portal (Dept. of Plant Pathology, TNAU Coimbatore); cites Crop Production Guide - Horticulture 2020."
+  },
+  "Tomato___Early_blight": {
+    "crop": "Tomato",
+    "disease": "Early blight",
+    "status": "SOURCED",
+    "organic_cultural": [
+      "Removal and destruction of crop debris",
+      "Crop rotation",
+      "Seed treatment: Trichoderma asperellum @ 4 g/kg seeds"
+    ],
+    "chemical": [
+      "Iprodione 50% WP @ 600 g/ac",
+      "Azoxystrobin 23% SC @ 200 ml/ac",
+      "Mancozeb 35% SC @ 1 kg/ac",
+      "Metiram 70% WG @ 1.0 kg/ac",
+      "Pyraclostrobin 20% WG @ 200 g/ac",
+      "Zineb 75% WP @ 800 g/ac",
+      "Azoxystrobin 18.2% + Difenoconazole 11.4% SC @ 200 ml/ac",
+      "Metiram 55% + Pyraclostrobin 5% WG @ 600 g/ac",
+      "Tebuconazole 50% + Trifloxystrobin 25% WG @ 140 g/ac"
+    ],
+    "source": "https://agritech.tnau.ac.in/crop_protection/tomato_diseases_2.html",
+    "source_note": "TNAU Agritech Portal (Dept. of Plant Pathology, TNAU Coimbatore), updated Jun 2023; cites Crop Production Guide - Horticulture 2020. Doses are per acre as given by the source."
+  },
+  "Tomato___Late_blight": {
+    "crop": "Tomato",
+    "disease": "Late blight",
+    "status": "SOURCED",
+    "organic_cultural": [
+      "Proper drainage",
+      "Crop rotation",
+      "Soil application of Trichoderma asperellum (viride) @ 1.0 kg/ac"
+    ],
+    "chemical": [
+      "Cyazofamid 34.5% SC @ 80 ml/ac",
+      "Azoxystrobin 23% SC @ 200 ml/ac",
+      "Mancozeb 35% SC @ 1000 g/ac",
+      "Zineb 75% WP @ 800 g/ac",
+      "Azoxystrobin 18.2% + Difenoconazole 11.4% SC @ 200 ml/ac"
+    ],
+    "source": "https://agritech.tnau.ac.in/crop_protection/tomato_diseases_8.html",
+    "source_note": "TNAU Agritech Portal (Dept. of Plant Pathology, TNAU Coimbatore); cites Crop Production Guide - Horticulture 2020. Doses are per acre as given by the source."
+  },
+  "Tomato___Leaf_Mold": {
+    "crop": "Tomato",
+    "disease": "Leaf Mold",
+    "status": "PARTIAL - cultural only, chemical not sourced",
+    "organic_cultural": [
+      "Select resistant cultivars (tolerance varies with pathogen strain)",
+      "Space plants for better air circulation and faster drying",
+      "If relative humidity exceeds 85% (greenhouse/high tunnel): open side walls or doors, turn on fans/ventilation"
+    ],
+    "chemical": [],
+    "source": "https://plantpathology.ca.uky.edu/sites/plantpathology.ca.uky.edu/files/PPFS-VG-52.pdf",
+    "source_note": "University of Kentucky Extension Plant Pathology fact sheet PPFS-VG-52 (not an Indian source; no TNAU page found). Chemical recommendations still needed from an ICAR/state agriculture university source."
+  },
+  "Tomato___Septoria_leaf_spot": {
+    "crop": "Tomato",
+    "disease": "Septoria leaf spot",
+    "status": "SOURCED",
+    "organic_cultural": [
+      "Removal and destruction of affected plant parts",
+      "Biological: seed treatment with Trichoderma asperellum @ 4 g/kg seeds"
+    ],
+    "chemical": [
+      "Fluxapyroxad 250 g/l + Pyraclostrobin 250 g/l SC @ 200-250 ml/ha"
+    ],
+    "source": "https://agritech.tnau.ac.in/crop_protection/tomato_diseases_4.html",
+    "source_note": "TNAU Agritech Portal (Dept. of Plant Pathology, TNAU Coimbatore); cites Crop Production Guide - Horticulture 2020. Note: this dose is per hectare, others are per acre."
+  },
+  "Tomato___Spider_mites Two-spotted_spider_mite": {
+    "crop": "Tomato",
+    "disease": "Spider mites Two-spotted spider mite",
+    "status": "SOURCED",
+    "organic_cultural": [],
+    "chemical": [
+      "Spray wettable sulphur 50 WP @ 2 g/litre, or dicofol 18.5 EC @ 2.5 ml/litre"
+    ],
+    "source": "https://agritech.tnau.ac.in/crop_protection/tomato/tomato_7.html",
+    "source_note": "TNAU Agritech Portal, Tomato red spider mite (Tetranychus spp.), updated Jun 2023. Page is for red spider mite, used here for the two-spotted spider mite class. Dicofol is an old acaricide: check that it is currently registered for use in your state before recommending it."
+  },
+  "Tomato___Target_Spot": {
+    "crop": "Tomato",
+    "disease": "Target Spot",
+    "status": "NOT_YET_SOURCED",
+    "organic_cultural": [],
+    "chemical": [],
+    "source": "",
+    "source_note": "No source found yet."
+  },
+  "Tomato___Tomato_Yellow_Leaf_Curl_Virus": {
+    "crop": "Tomato",
+    "disease": "Tomato Yellow Leaf Curl Virus",
+    "status": "SOURCED",
+    "organic_cultural": [
+      "Raise nursery in protected condition",
+      "Grow sorghum, maize or bajra as barrier crop",
+      "Use disease-free seeds",
+      "Yellow sticky traps @ 5 nos./ac",
+      "Remove alternate weed host Abutilon indicum"
+    ],
+    "chemical": [
+      "Spray (against whitefly vector): Dimethoate 30 EC @ 200 ml/ac or Methyl demeton 25 EC @ 200 ml/ac or Thiamethoxam 25 WG @ 200 g/ac or Imidacloprid 17.8 SL @ 200 ml/ac"
+    ],
+    "source": "https://agritech.tnau.ac.in/crop_protection/tomato_diseases_6.html",
+    "source_note": "TNAU Agritech Portal (Dept. of Plant Pathology, TNAU Coimbatore); cites Crop Production Guide - Horticulture 2020. TNAU page is titled 'Tomato leaf curl virus'; used here for the Tomato Yellow Leaf Curl Virus class. Chemicals target the whitefly vector, not the virus."
+  },
+  "Tomato___Tomato_mosaic_virus": {
+    "crop": "Tomato",
+    "disease": "Tomato mosaic virus",
+    "status": "PARTIAL - TNAU page is titled Cucumber mosaic virus, verify before use",
+    "organic_cultural": [
+      "Use disease-free seeds",
+      "Remove infected plants",
+      "Crop rotation"
+    ],
+    "chemical": [],
+    "source": "https://agritech.tnau.ac.in/crop_protection/tomato_diseases_12.html",
+    "source_note": "Checked: the TNAU page is headed 'Mosaic : Cucumber mosaic virus' but its causal organism line says Tomato Mosaic Virus, and its management text matches this entry. Treat as general mosaic management."
+  },
+  "Tomato___healthy": {
+    "crop": "Tomato",
+    "disease": "Healthy",
+    "status": "HEALTHY - no treatment entry needed"
+  }
+}
