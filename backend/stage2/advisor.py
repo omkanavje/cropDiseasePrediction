@@ -35,6 +35,8 @@ def _plain_text(r: dict) -> str:
         lines.append("Chemical options (doses as given by the source):")
         lines += [f"  - {x}" for x in r["chemical"]]
     lines.append(f"Source: {r['source']}")
+    if r["result_type"] == "partial":
+        lines.append(f"Note (incomplete information): {r['note']}")
     lines.append(DISCLAIMER)
     return "\n".join(lines)
 
@@ -95,7 +97,9 @@ def get_advice(class_name: str, language: str = "English", llm=_call_gemini) -> 
                 "remedy": r}
 
     return {"result_type": r["result_type"],
-            "advice": text + f"\n\nSource: {r['source']}\n{DISCLAIMER}",
+            "advice": text + f"\n\nSource: {r['source']}"
+                      + (f"\nNote (incomplete information): {r['note']}" if r["result_type"] == "partial" else "")
+                      + f"\n{DISCLAIMER}",
             "rewritten_by_llm": True, "remedy": r}
 
 

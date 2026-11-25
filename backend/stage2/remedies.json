@@ -19,20 +19,32 @@
   "Apple___Black_rot": {
     "crop": "Apple",
     "disease": "Black rot",
-    "status": "NOT_YET_SOURCED",
-    "organic_cultural": [],
-    "chemical": [],
-    "source": "",
-    "source_note": "No source found yet."
+    "status": "PARTIAL - cultural measures only; non-Indian extension sources, no doses",
+    "organic_cultural": [
+      "Prune out and remove infected and dead branches (cankers) in winter",
+      "Remove and destroy mummified fruit and leaf debris to reduce infection next year",
+      "Avoid wounding branches, leaves and fruit, since open wounds are easily infected",
+      "Keep trees healthy and well watered; drought-stressed trees are infected more often",
+      "Plant resistant cultivars where available"
+    ],
+    "chemical": [
+      "Fungicides are rarely needed when sanitation and tree care are good. Captan and sulfur products used in scab sprays can also help protect against black rot (no dose given by the source; follow the product label and local advice)"
+    ],
+    "source": "https://extension.umn.edu/plant-diseases/black-rot-apple",
+    "source_note": "University of Minnesota Extension (black rot of apple), with sanitation and pruning points from Cornell's fact sheet (blogs.cornell.edu/applevarietydatabase). Not Indian sources, and no doses given. Ask a local horticulture officer about chemicals."
   },
   "Apple___Cedar_apple_rust": {
     "crop": "Apple",
     "disease": "Cedar apple rust",
-    "status": "NOT_YET_SOURCED",
-    "organic_cultural": [],
+    "status": "PARTIAL - practices and spray timing only, no doses; non-Indian source",
+    "organic_cultural": [
+      "Plant resistant apple or crabapple varieties.",
+      "Remove all galls from nearby juniper/cedar before the orange telial horns form.",
+      "Removing junipers within about three miles of the orchard is said to reduce rust risk to minimum or none."
+    ],
     "chemical": [],
-    "source": "",
-    "source_note": "No source found. This rust needs juniper/cedar hosts and is mainly reported in North America; the Indian sources checked do not cover it."
+    "source": "https://selectors.extension.illinois.edu/pathogen/cedar-apple-rust",
+    "source_note": "University of Illinois Extension (Schuster and Babadoost); no date shown on page. Non-Indian source used because no Indian source on this disease was found (it needs juniper/cedar hosts, mainly North America). Page only says to start fungicide at pink flower bud stage and continue at labeled intervals until 1-2 weeks past petal-fall; it names no active ingredient or dose, so chemical is left empty. Other US extension pages list products and US label rates, not used (US-registered products, not verified for India)."
   },
   "Apple___healthy": {
     "crop": "Apple",
@@ -47,11 +59,16 @@
   "Cherry_(including_sour)___Powdery_mildew": {
     "crop": "Cherry (including sour)",
     "disease": "Powdery mildew",
-    "status": "NOT_YET_SOURCED",
-    "organic_cultural": [],
-    "chemical": [],
-    "source": "",
-    "source_note": "No source found yet."
+    "status": "PARTIAL - non-Indian extension sources, no doses",
+    "organic_cultural": [
+      "Prune trees to improve air circulation; this is the best cultural control for powdery mildew",
+      "Moderate shoot growth through careful nitrogen management"
+    ],
+    "chemical": [
+      "Sulfur provides some control of powdery mildew (no dose given by the source; follow the product label). Fungicides are often needed only in hot, dry years"
+    ],
+    "source": "https://www.canr.msu.edu/news/pre_harvest_disease_control_in_cherry",
+    "source_note": "Michigan State University Extension, Pre-harvest disease control in cherry, with cultural points from the Pacific Northwest Plant Disease Management Handbook (pnwhandbooks.org). Not Indian sources and no doses."
   },
   "Cherry_(including_sour)___healthy": {
     "crop": "Cherry (including sour)",
@@ -119,20 +136,30 @@
   "Grape___Esca_(Black_Measles)": {
     "crop": "Grape",
     "disease": "Esca (Black Measles)",
-    "status": "NOT_YET_SOURCED",
-    "organic_cultural": [],
+    "status": "PARTIAL - cultural practices only, no doses; non-Indian source",
+    "organic_cultural": [
+      "Use clean, healthy planting material (scion and rootstock).",
+      "Never prune vines in rainy, wet weather.",
+      "Scout the vineyard regularly; cut out infected wood at least 4 inches (as the source states) into healthy green wood and burn or bury it.",
+      "Double pruning or delayed pruning can suppress trunk diseases.",
+      "Protect pruning wounds with wound paint or protectant.",
+      "Keep vines healthy (suitable fertility, avoid over-cropping young vines); vine surgery only delays decline, so expect to remove badly diseased vines eventually."
+    ],
     "chemical": [],
-    "source": "",
-    "source_note": "No Indian source found. The NHB grape page covers 'Dead arm' (Phomopsis), which is a different disease; do not use it for Esca."
+    "source": "https://aggie-horticulture.tamu.edu/wp-content/uploads/sites/13/2020/05/Grapevine-Trunk-Diseases-EPLP-034.pdf",
+    "source_note": "Texas A&M AgriLife Extension, publication EPLP-034, dated 5/17 (2017). Covers grapevine trunk diseases including esca/black measles. Non-Indian source used because searches of ICAR-NRC Grapes, NHB and TNAU material found nothing on esca (the NHB page covers Dead arm/Phomopsis, a different disease). The source says complete control is virtually impossible and gives no fungicide names or doses, only 'follow the product label' for dormant sprays; chemical left empty."
   },
   "Grape___Leaf_blight_(Isariopsis_Leaf_Spot)": {
     "crop": "Grape",
     "disease": "Leaf blight (Isariopsis Leaf Spot)",
-    "status": "NOT_YET_SOURCED",
-    "organic_cultural": [],
+    "status": "PARTIAL - general practices only, no doses; non-Indian source",
+    "organic_cultural": [
+      "Promote vine vigor.",
+      "Improve air circulation so plant tissue dries faster (pruning, thinning, spacing, weed management)."
+    ],
     "chemical": [],
-    "source": "",
-    "source_note": "No source found. The NHB grape page covers Alternaria leaf blight, which is a different pathogen; do not use it for Isariopsis leaf spot."
+    "source": "https://fruitscout.mgcafe.uky.edu/leaf-spots-grapes",
+    "source_note": "University of Kentucky Scouting Guide for Problems of Fruit; undated. Page is a group page for grape leaf spots (Cercospora, Septoria, Isariopsis/Pseudocercospora, Pestalotia), not Isariopsis alone. Non-Indian source used because no Indian page on this disease was found (searched TNAU, ICAR-NRC Grapes, NHB; NRC Grapes CIB&RC list has no Isariopsis entry). It says early-season fungicides used for other diseases also help but names no product or dose, so chemical is left empty. Do not use the TNAU/ICAR ber 'black spot' (Isariopsis personata) pages; that is a different crop and pathogen."
   },
   "Grape___healthy": {
     "crop": "Grape",
@@ -142,20 +169,34 @@
   "Orange___Haunglongbing_(Citrus_greening)": {
     "crop": "Orange",
     "disease": "Haunglongbing (Citrus greening)",
-    "status": "NOT_YET_SOURCED",
-    "organic_cultural": [],
-    "chemical": [],
-    "source": "",
-    "source_note": "TNAU page has no management text. ICAR sources describe the disease as spread by the citrus psylla and infected budwood, with no cure. Treatment advice still needed."
+    "status": "PARTIAL - one antibiotic dose only; psyllid insecticide product and dose not given by source",
+    "organic_cultural": [
+      "Use pathogen-free budwood for propagation.",
+      "Control the citrus psyllid (Diaphorina citri), which spreads the disease, with insecticides.",
+      "Collect and destroy damaged plant parts.",
+      "Encourage natural enemies of the psyllid such as syrphids and chrysopids.",
+      "Spray systemic insecticides during flush growth periods (source names no product or dose)."
+    ],
+    "chemical": [
+      "Tetracycline spray at 500 ppm, applied fortnightly (as the source states; no formulation or spray volume given)"
+    ],
+    "source": "https://agritech.tnau.ac.in/crop_protection/citrus_diseases_5.html",
+    "source_note": "TNAU Agritech Portal, Citrus greening page (the page now has management text, unlike when first checked); no date shown. The tetracycline dose is the only dose on the page. Psyllid practices come from TNAU's separate citrus pests page (https://agritech.tnau.ac.in/crop_protection/crop_prot_crop_insectpest%20_-Citrus_pest&disease.html), which gives no psyllid insecticide dose; the doses on that page are for aphids, black fly and other pests and were not used. I could not confirm the tetracycline use against a CIB&RC label, so check with a local horticulture officer before use. There is no cure for the disease; removing infected trees is not mentioned by TNAU."
   },
   "Peach___Bacterial_spot": {
     "crop": "Peach",
     "disease": "Bacterial spot",
-    "status": "NOT_YET_SOURCED",
-    "organic_cultural": [],
-    "chemical": [],
-    "source": "",
-    "source_note": "No source found yet."
+    "status": "PARTIAL - non-Indian extension source, no doses",
+    "organic_cultural": [
+      "Plant bacterial spot-resistant or less susceptible varieties; this is the most sustainable control, though even resistant varieties can be infected in wet years",
+      "Fertilize trees as recommended; vigorous, well-cared-for trees are less susceptible",
+      "Sandy, windy sites and stressed trees get more bacterial spot, so choose resistant varieties there"
+    ],
+    "chemical": [
+      "Copper-containing sprays or oxytetracycline are used against bacterial spot; repeated applications are usually needed, and copper can injure leaves (no dose given by the source; follow the product label)"
+    ],
+    "source": "https://www.aces.edu/blog/topics/crop-production/bacterial-spot-treatment-in-peaches/",
+    "source_note": "Alabama Cooperative Extension System (Auburn University), Bacterial Spot Treatment in Peaches (ANR-2962), with spray options from Michigan State University Extension. Not Indian sources and no doses."
   },
   "Peach___healthy": {
     "crop": "Peach",
@@ -232,22 +273,30 @@
   "Squash___Powdery_mildew": {
     "crop": "Squash",
     "disease": "Powdery mildew",
-    "status": "PARTIAL - TNAU page is for muskmelon/watermelon (same disease group), no squash page found",
+    "status": "SOURCED - TNAU muskmelon/watermelon page, which lists squash among the hosts",
     "organic_cultural": [],
     "chemical": [
       "Wettable sulphur @ 0.2%"
     ],
     "source": "https://agritech.tnau.ac.in/crop_protection/water_melon_6.html",
-    "source_note": "TNAU Agritech Portal, Muskmelon and Watermelon powdery mildew (Erysiphe cichoracearum). Squash is in the same cucurbit family; confirm with a squash-specific source if available."
+    "source_note": "TNAU Agritech Portal, Muskmelon and Watermelon powdery mildew (Erysiphe cichoracearum); page has no date but a 2008-2024 copyright line. The page's symptoms text says the disease attacks muskmelons, squash, cucumbers, gourds and pumpkins, so it covers squash. Only one control is given (wettable sulphur @ 0.2%, no volume or interval stated). A squash-specific dose source (Indian Phytopathology 65(2), summer squash, ICAR epubs) was found but I only saw its listing page in search results (no abstract or doses), so it was not used."
   },
   "Strawberry___Leaf_scorch": {
     "crop": "Strawberry",
     "disease": "Leaf scorch",
-    "status": "NOT_YET_SOURCED",
-    "organic_cultural": [],
-    "chemical": [],
-    "source": "",
-    "source_note": "No source found yet."
+    "status": "PARTIAL - cultural measures only; non-Indian extension sources, no doses",
+    "organic_cultural": [
+      "Begin with clean, disease-free plant material",
+      "Use proper sanitation: remove infected leaves and plant debris",
+      "Increase air circulation so leaves dry quickly; space plants adequately",
+      "Plant new transplants frequently and control weeds",
+      "Consider resistant cultivars"
+    ],
+    "chemical": [
+      "Use fungicides only if the disease becomes severe (no active ingredient or dose given by these sources; ask a local agriculture officer)"
+    ],
+    "source": "https://fruitscout.mgcafe.uky.edu/leaf-scorch-strawberry",
+    "source_note": "University of Kentucky Scouting Guide (leaf scorch of strawberry), with spacing and transplant points from NC State Extension (content.ces.ncsu.edu/leaf-scorch-of-strawberry). Not Indian sources and no doses."
   },
   "Strawberry___healthy": {
     "crop": "Strawberry",
@@ -350,11 +399,14 @@
   "Tomato___Target_Spot": {
     "crop": "Tomato",
     "disease": "Target Spot",
-    "status": "NOT_YET_SOURCED",
+    "status": "PARTIAL - fungicide types only, no doses; non-Indian source",
     "organic_cultural": [],
-    "chemical": [],
-    "source": "",
-    "source_note": "No source found yet."
+    "chemical": [
+      "Chlorothalonil and mancozeb gave fairly good control of target spot when applied before infection, as a preventative (no dose given by the source; follow the product label)",
+      "Strobilurin fungicides such as azoxystrobin gave excellent control in university trials (no dose given by the source; follow the product label)"
+    ],
+    "source": "https://ipm.ifas.ufl.edu/pdfs/Target_Spot.pdf",
+    "source_note": "University of Florida IPM, Target Spot of Tomato (Corynespora cassiicola). Not an Indian source and no doses. Fungicide resistance in this fungus has been reported, so ask a local agriculture officer for current advice."
   },
   "Tomato___Tomato_Yellow_Leaf_Curl_Virus": {
     "crop": "Tomato",
@@ -376,15 +428,16 @@
   "Tomato___Tomato_mosaic_virus": {
     "crop": "Tomato",
     "disease": "Tomato mosaic virus",
-    "status": "PARTIAL - TNAU page is titled Cucumber mosaic virus, verify before use",
+    "status": "PARTIAL - practices only; TNAU Tamil page, seed-soak dose left out because soak time is not given",
     "organic_cultural": [
-      "Use disease-free seeds",
-      "Remove infected plants",
-      "Crop rotation"
+      "Select seed from healthy, disease-free plants.",
+      "Carefully remove and destroy infected plants from the field.",
+      "Do not use virus-infected seedlings for transplanting.",
+      "Rotate with crops other than tobacco, potato, chilli, capsicum and brinjal."
     ],
     "chemical": [],
-    "source": "https://agritech.tnau.ac.in/crop_protection/tomato_diseases_12.html",
-    "source_note": "Checked: the TNAU page is headed 'Mosaic : Cucumber mosaic virus' but its causal organism line says Tomato Mosaic Virus, and its management text matches this entry. Treat as general mosaic management."
+    "source": "https://agritech.tnau.ac.in/ta/crop_protection/tomato_diseases_7_ta.html",
+    "source_note": "TNAU Agritech Portal, Tamil-language page 'Tomato mosaic disease' (copyright 2016); I read the Tamil text and summarised it in English myself. The page does not name the virus, but its symptoms (mottling, fern-leaf) and spread by workers' clothes and hands match tomato mosaic. The page also advises soaking seed in a trisodium phosphate solution of 90 (written '90கி', gram abbreviation) per litre of water one day before sowing, then rinsing and shade-drying; this was left out because it does not say how long to soak, and a wrong soak could harm the seed. Replaces the earlier English TNAU page (tomato_diseases_12.html), which is headed Cucumber mosaic virus but lists Tomato Mosaic Virus as the cause, so its mix of CMV and ToMV details is unreliable. The page gives no insecticide or other chemical advice."
   },
   "Tomato___healthy": {
     "crop": "Tomato",

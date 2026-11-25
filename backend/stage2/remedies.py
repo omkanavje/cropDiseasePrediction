@@ -27,6 +27,15 @@ def _norm(text: str) -> str:
 with open(_DATA_FILE, encoding="utf-8") as f:
     _DATA = json.load(f)
 
+# Optional extra files (diseases outside the 38 PlantVillage classes): extra_01.json, extra_02.json, ...
+# Just drop them in the same folder. They never override the main file.
+for _extra in sorted(_DATA_FILE.parent.glob("extra_*.json")):
+    try:
+        for _k, _v in json.loads(_extra.read_text(encoding="utf-8")).items():
+            _DATA.setdefault(_k, _v)
+    except Exception as _e:  # a broken extra file must never break the main lookup
+        print(f"Warning: could not read {_extra.name}: {_e}")
+
 # normalized name -> original key (also matches "crop disease" without the ___)
 _INDEX = {}
 for _key, _entry in _DATA.items():
