@@ -1,56 +1,66 @@
-# Welcome to your Expo app 👋
+# CropCare AI 🌱
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+AI-powered crop disease detection and remedy assistance through plant leaf images.
 
-## Get started
+## About the Project
 
-1. Install dependencies
+CropCare AI is a mobile application designed to help users identify potential crop diseases from plant images and access relevant treatment information.
 
-   ```bash
-   npm install
-   ```
+The project includes:
 
-2. Start the app
+- Plant image selection using camera or gallery.
+- Crop disease detection (AI model integration).
+- Disease information and results.
+- Treatment and remedy guidance.
+- Scan history and user profile.
 
-   ```bash
-   npx expo start
-   ```
+**Note:** AI disease detection and advisory features are under development and will be connected to the respective backend services.
 
-In the output, you'll find options to open the app in a
+## Technology Stack
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- React Native
+- Expo
+- TypeScript
+- Expo Router
 
-You can start developing by editing the files inside the **src/app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Getting Started
 
-## Get a fresh project
-
-When you're ready, run:
+### 1. Install dependencies
 
 ```bash
-npm run reset-project
+npm install
 ```
 
-This command will move the starter code to the **example** directory and create a blank **src/app** directory where you can start developing.
+### 2. Start the application
 
-### Other setup steps
+```bash
+npx expo start
+```
 
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
+### 3. Open the application
 
-## Learn more
+You can run the app using:
 
-To learn more about developing your project with Expo, look at the following resources:
+- [Expo Go](https://expo.dev/go)
+- [Android Emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
+- [iOS Simulator](https://docs.expo.dev/workflow/ios-simulator/)
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## Project Structure
 
-## Join the community
+The frontend application screens are located in:
 
-Join our community of developers creating universal apps.
+```text
+src/app/
+```
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+This project uses Expo Router for file-based navigation.
+
+## Useful Resources
+
+- [Expo Documentation](https://docs.expo.dev/)
+- [Expo Router Documentation](https://docs.expo.dev/router/introduction/)
+- [React Native Documentation](https://reactnative.dev/)
+
+## Team Project
+
+CropCare AI is being developed as a collaborative project, with frontend, AI-based disease detection, and advisory components.
