@@ -36,6 +36,9 @@ except Exception:  # Stage 1 not uploaded yet
     predict_disease = None
 
 app = FastAPI(title="Crop disease detection + advisory")
+from fastapi.middleware.cors import CORSMiddleware
+app.add_middleware(CORSMiddleware, allow_origins=["*"], allow_methods=["*"], allow_headers=["*"])
+
 
 # lets the UI (running on another port or laptop) call this backend
 app.add_middleware(CORSMiddleware, allow_origins=["*"], allow_methods=["*"], allow_headers=["*"])
