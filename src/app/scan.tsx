@@ -5,6 +5,7 @@ import { useState } from "react";
 import {
   Alert,
   Image,
+  Platform,
   ScrollView,
   StatusBar,
   StyleSheet,
@@ -13,6 +14,7 @@ import {
   View,
 } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
+const API_URL = "http://localhost:8000";
 
 export default function ScanScreen() {
   const router = useRouter();
@@ -48,21 +50,38 @@ export default function ScanScreen() {
     }
   };
 
-  const analysePlant = () => {
+  
+      const analysePlant = async () => {
     if (!image) {
-      Alert.alert(
-        "No image selected",
-        "Please take a photo or choose a leaf image first.",
-      );
+      Alert.alert("No image selected", "Please choose a leaf image first.");
       return;
     }
-
-    router.push({
-      pathname: "/results",
-      params: {
-        imageUri: encodeURIComponent(image),
-      },
-    });
+    try {
+      const form = new FormData();
+      if (Platform.OS === "web") {
+        const blob = await (await fetch(image)).blob();
+        form.append("file", blob, "leaf.jpg");
+      } else {
+        form.append("file", { uri: image, name: "leaf.jpg", type: "image/jpeg" } as any);
+      }
+      const res = await fetch(`${API_URL}/predict`, { method: "POST", body: form });
+      if (!res.ok) throw new Error(`Server error ${res.status}`);
+      const data = await res.json();
+      router.push({
+        pathname: "/results",
+        params: {
+          imageUri: encodeURIComponent(image),
+          result: encodeURIComponent(JSON.stringify(data)),
+        },
+      });
+        } catch (e) {
+      console.log(e);
+      if (Platform.OS === "web") {
+        window.alert("Could not reach the server: " + String(e));
+      } else {
+        Alert.alert("Could not reach the server", String(e));
+      }
+    }
   };
 
   return (
