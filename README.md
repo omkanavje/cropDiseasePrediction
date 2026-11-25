@@ -1,66 +1,66 @@
-# CropCare AI 🌱
+# CropCare AI
 
-AI-powered crop disease detection and remedy assistance through plant leaf images.
+A mobile app that identifies crop diseases from a photo of a plant leaf and tells you how to treat them.
 
-## About the Project
+## How it works
 
-CropCare AI is a mobile application designed to help users identify potential crop diseases from plant images and access relevant treatment information.
+The app runs in two stages:
 
-The project includes:
+1. **Detection.** You take a photo or pick one from your gallery. A trained model analyzes the leaf image and predicts which disease it is.
+2. **Remedy lookup.** The predicted disease name is matched and the remedies are shown
 
-- Plant image selection using camera or gallery.
-- Crop disease detection (AI model integration).
-- Disease information and results.
-- Treatment and remedy guidance.
-- Scan history and user profile.
+## Features
 
-**Note:** AI disease detection and advisory features are under development and will be connected to the respective backend services.
+- Capture a leaf photo with the camera or choose one from the gallery
+- Disease prediction from the image
+- Treatment and remedy suggestions for the detected disease
+- Scan history
+- User profile
 
-## Technology Stack
+## Tech stack
 
-- React Native
-- Expo
+- React Native with Expo
 - TypeScript
-- Expo Router
+- Expo Router for navigation
+- Python for the remedy lookup
+- `<model framework, e.g. TensorFlow / PyTorch>` for disease detection
 
-## Getting Started
+## Getting started
 
-### 1. Install dependencies
+### Prerequisites
+
+- Node.js and npm
+- Python 3 (for the remedy script)
+- Expo Go on your phone, or an Android/iOS emulator
+
+### Run the app
 
 ```bash
 npm install
-```
-
-### 2. Start the application
-
-```bash
 npx expo start
 ```
 
-### 3. Open the application
+Then open it in [Expo Go](https://expo.dev/go), an [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/), or an [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/).
 
-You can run the app using:
+### Run the remedy script
 
-- [Expo Go](https://expo.dev/go)
-- [Android Emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS Simulator](https://docs.expo.dev/workflow/ios-simulator/)
-
-## Project Structure
-
-The frontend application screens are located in:
-
-```text
-src/app/
+```bash
+python <script_name>.py
 ```
 
-This project uses Expo Router for file-based navigation.
+## Project structure
 
-## Useful Resources
+```
+src/app/            App screens (file-based routing with Expo Router)
+<path>/             Detection model
+<path>/remedies.json  Disease-to-remedy data
+<path>/<script>.py  Script that looks up the remedy for a disease
+```
 
-- [Expo Documentation](https://docs.expo.dev/)
-- [Expo Router Documentation](https://docs.expo.dev/router/introduction/)
-- [React Native Documentation](https://reactnative.dev/)
+## Status
 
-## Team Project
+The app screens are in place. Model integration and the remedy backend are still being connected. `<update this as things change>`
 
-CropCare AI is being developed as a collaborative project, with frontend, AI-based disease detection, and advisory components.
+## Contributing
+
+This is a team project. To contribute, fork the repo, create a branch, and open a pull request.
