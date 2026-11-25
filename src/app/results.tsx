@@ -13,7 +13,13 @@ import {
 import { SafeAreaView } from "react-native-safe-area-context";
 
 export default function ResultsScreen() {
-  const { imageUri } = useLocalSearchParams<{ imageUri?: string }>();
+ const { imageUri, result } = useLocalSearchParams<{ imageUri?: string; result?: string }>();
+let data: any = null;
+try {
+  data = result ? JSON.parse(decodeURIComponent(result)) : null;
+} catch {
+  try { data = JSON.parse(result as string); } catch {}
+}
   const router = useRouter();
   const [saved, setSaved] = useState(false);
 
@@ -95,7 +101,9 @@ export default function ResultsScreen() {
 
             <View style={styles.diseaseRow}>
               <View style={{ flex: 1 }}>
-                <Text style={styles.diseaseName}>Early Blight</Text>
+              <Text style={styles.diseaseName}>
+  {data ? (data.remedy?.disease ?? data.disease_class) : "Early Blight"}
+</Text>
                 <Text style={styles.scientificName}>Tomato plant example</Text>
                 <Text style={styles.scientificName}>
                   Sample information only
@@ -103,7 +111,9 @@ export default function ResultsScreen() {
               </View>
 
               <View style={styles.confidenceCircle}>
-                <Text style={styles.confidence}>--</Text>
+                <Text style={styles.confidence}>
+  {data?.confidence != null ? Math.round(data.confidence * 100) + "%" : "--"}
+</Text>
                 <Text style={styles.confLabel}>PENDING</Text>
               </View>
             </View>
@@ -131,25 +141,13 @@ export default function ResultsScreen() {
             </View>
           </View>
 
-          <Text style={styles.sectionTitle}>Possible Symptoms</Text>
-
-          <View style={styles.card}>
-            <Text style={styles.symptomTitle}>Brown spots on leaves</Text>
-            <Text style={styles.description}>
-              Example symptom associated with Early Blight. This is not an
-              assessment of your selected photo.
-            </Text>
-          </View>
-
-          <View style={styles.card}>
-            <Text style={styles.symptomTitle}>
-              Yellowing around affected areas
-            </Text>
-            <Text style={styles.description}>
-              Example symptom associated with Early Blight. Actual symptoms will
-              depend on the model's result.
-            </Text>
-          </View>
+<Text style={styles.sectionTitle}>Advice</Text>
+<View style={styles.card}>
+  <Text style={styles.description}>
+    {data ? data.advice : "No result yet."}
+  </Text>
+</View>
+         
 
           <TouchableOpacity
             style={styles.primaryButton}
