@@ -79,10 +79,10 @@
       "Collect the remains of the crop and destroy by burning or burying"
     ],
     "chemical": [
-      "Foliar spray at 35 and 50 days after sowing (DAS) of ONE of: Kresoxim-methyl 44.3% SC @ 1 ml/litre, or Tebuconazole @ 1 ml/litre, or Chlorothalonil (dose not clearly separated on the page), or Mancozeb @ 2 ml/litre"
+      "Foliar spray at 35 and 50 days after sowing (DAS) of ONE of: Kresoxim-methyl 44.3% SC @ 1 ml/litre, or Tebuconazole @ 1 ml/litre, or Mancozeb @ 2 ml/litre"
     ],
     "source": "https://agritech.tnau.ac.in/crop_protection/maize_disease_new/maize_4.html",
-    "source_note": "TNAU Agritech Portal, Maize common rust (Puccinia sorghi). The page's spray line runs the chemical names together ('...1ml/l orchlorothalonil or mancozeb 2 ml/l'), so the Chlorothalonil dose is unclear. Check the page before using that option."
+    "source_note": "TNAU Agritech Portal, Maize common rust (Puccinia sorghi). The page also lists Chlorothalonil, but its dose is not clearly stated, so that option is left out."
   },
   "Corn_(maize)___Northern_Leaf_Blight": {
     "crop": "Corn (maize)",
